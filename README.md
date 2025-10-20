@@ -39,5 +39,3 @@ Link to Project: https://github.com/aprilitriago/Portfolio/blob/159415b4bf41ffa9
 
 
 
-Link to Project: https://github.com/aprilitriago/Portfolio/tree/main/Liquidh2o
-
