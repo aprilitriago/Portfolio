@@ -1,0 +1,2 @@
+# Liquidh2o
+This project develops a full data analytics pipeline to monitor and control water distribution across client tanks. It combines time-series analysis, feature engineering, and machine learning models (LightGBM) to predict future water levels and detect anomalies in near real time. The system automatically validates predictions against actual measurements and flags inconsistencies for review, ensuring efficient and reliable water management.
