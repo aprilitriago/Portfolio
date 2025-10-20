@@ -8,7 +8,20 @@ Today, I’m passionate about applying data-driven approaches to real-world chal
 I’m currently seeking opportunities in data analysis or AI, where I can contribute to innovative, data-driven projects while continuing to grow professionally. I'm especially interested in roles that combine creativity, impact, and continuous learning, within collaborative and forward-thinking environments.
 
 Portfolio index:
-1 Comparative Analysis of Machine Learning Classifiers for Modeling Travel Mode Choice
+
+1. Liquidh2o
+
+This project develops a predictive analytics and machine learning pipeline to monitor and control water distribution across client tanks. It uses time-series modeling to ensure that each tank’s predicted water level aligns with the measured level, allowing automatic control and early anomaly detection.
+
+The analysis integrates sensor data from the distribution network with weather and temporal features, applying advanced preprocessing steps such as lag and rolling-window feature engineering, outlier handling, and winsorization to stabilize readings.
+
+An Extra Trees baseline was first trained using PyCaret to validate signal strength, achieving an R² above 0.99 across most tanks. The next phase migrates to LightGBM for improved scalability and interpretability, with per-tank models deployed through automated Python–SQL pipelines for daily monitoring.
+
+Technologies Used: PostgreSQL, Python
+
+Link to Project: https://github.com/aprilitriago/Portfolio/tree/main/Liquidh2o
+
+2. Comparative Analysis of Machine Learning Classifiers for Modeling Travel Mode Choice
 Brief Description:
 
 This project undertakes a comprehensive study to evaluate and compare various machine learning classifiers in their ability to model and predict the choice of travel mode. Through rigorous testing and evaluation, we aim to identify the most effective classifier for this specific application.
@@ -17,17 +30,14 @@ Technologies Used: Python
 
 Link to Project: https://github.com/aprilitriago/Portfolio/tree/6c2dbe23802e17b6fa5535360b8ab9110117eb80/mode_transportation
 
-2 Tanzania Water Pump Fault Prediction
+3. Tanzania Water Pump Fault Prediction
 Brief Description:
 
 In collaboration with DrivenData, this intermediate-level project focused on promoting access to clean water in Tanzania by predicting faulty water pumps. Using a dataset encompassing various water pump features and their operational status, I applied data science techniques to identify malfunctioning pumps. The objective was to enable timely maintenance and ensure consistent water availability to the communities.
 
-
 Link to Project: https://github.com/aprilitriago/Portfolio/blob/159415b4bf41ffa92b653e81fc86c6c99fef5cda/water_pump/water_pump.ipynb
 
-3. Liquidh2o
 
-This project develops a full data analytics pipeline to monitor and control water distribution across client tanks. It combines time-series analysis, feature engineering, and machine learning models (LightGBM) to predict future water levels and detect anomalies in near real time. The system automatically validates predictions against actual measurements and flags inconsistencies for review, ensuring efficient and reliable water management.
 
-Technologies Used: PostgreSQL, Python
+Link to Project: https://github.com/aprilitriago/Portfolio/tree/main/Liquidh2o
 
