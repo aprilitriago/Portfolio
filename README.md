@@ -22,10 +22,12 @@ Brief Description:
 
 In collaboration with DrivenData, this intermediate-level project focused on promoting access to clean water in Tanzania by predicting faulty water pumps. Using a dataset encompassing various water pump features and their operational status, I applied data science techniques to identify malfunctioning pumps. The objective was to enable timely maintenance and ensure consistent water availability to the communities.
 
+
+Link to Project: https://github.com/aprilitriago/Portfolio/blob/159415b4bf41ffa92b653e81fc86c6c99fef5cda/water_pump/water_pump.ipynb
+
 3. Liquidh2o
 
 This project develops a full data analytics pipeline to monitor and control water distribution across client tanks. It combines time-series analysis, feature engineering, and machine learning models (LightGBM) to predict future water levels and detect anomalies in near real time. The system automatically validates predictions against actual measurements and flags inconsistencies for review, ensuring efficient and reliable water management.
 
-Technologies Used: Python
+Technologies Used: PostgreSQL, Python
 
-Link to Project: https://github.com/aprilitriago/Portfolio/blob/159415b4bf41ffa92b653e81fc86c6c99fef5cda/water_pump/water_pump.ipynb
