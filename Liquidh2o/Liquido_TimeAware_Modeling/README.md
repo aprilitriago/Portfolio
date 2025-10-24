@@ -1,6 +1,6 @@
 # Liquido_TimeAware_Modeling
 
-Liquidh₂O – Phase 2 : Time-Aware Forecasting
+**Liquidh₂O – Phase 2 : Time-Aware Forecasting**
 
 **Goal**: Extend the Phase 1 baseline into a time-aware model that predicts short-term water-level changes for distribution-only tanks.
 
