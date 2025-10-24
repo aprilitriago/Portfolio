@@ -1,0 +1,37 @@
+# config/tanks_predict.yaml
+tables:
+  base: view_measurements_predict_8d   # your new view (past 5d + next 5d)
+  base_schema: predictions
+  preds: future_levels                 # output table
+  schema: predictions             #  default write schema for outputs
+
+paths:
+  registry: models
+groups:
+  cluster0: []         # 13 tanks
+  individual: [31,69,85,96,97,98,101,103,107,115,116,118,133,138,139,142,143,149,150,151,152,156,159,161,164,166,176,178,179,190,200,215,219,226,227,233,238,243,246,249,255,256,260,267,271,289,290,315,316]           # 48 tanks
+  complex: [144,188,233,299]             # need alt ML/tuning
+criteria:
+  keep_lightgbm:
+    mae: 3
+    rmse: 10
+    r2: 0.97
+lightgbm:
+  learning_rate: 0.05 #standar, 0.01 very slow safe, 0.1 fast but can overfit
+  num_leaves: 64 # good start 128 or 256 more complex data
+  start_n: 300 #our media of best_iter is 100, so 300 is ok
+  max_n: 7000
+  step_n: 1000 #jumps... 500-1000 normal, 2000 skower, 2000 faster skip best spot
+  stopping_rounds: 80 #how many rounds it can go without getting better 30–100 → small for quick checks, big for careful training.
+  force_col_wise: true 
+feature_drop:
+  groups: ["weather", "leakage"]   # groups to drop
+  cols: ["median_level_capped"]                         # specific columns to drop in addition 
+general:
+  ts_col: updated_at
+  target: median_level
+  group_col: tank_id
+  log_target: true   
+
+
+

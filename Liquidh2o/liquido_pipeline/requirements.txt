@@ -1,0 +1,14 @@
+pandas>=2.2.2
+numpy>=1.26.4
+pyyaml>=6.0.2
+python-dotenv>=1.0.1
+joblib>=1.4.2
+
+scikit-learn>=1.5.2
+lightgbm>=4.5.0
+matplotlib>=3.9.2
+
+SQLAlchemy>=2.0.35
+psycopg2-binary>=2.9.9
+
+tqdm>=4.66.5
