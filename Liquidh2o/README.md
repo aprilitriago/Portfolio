@@ -1,4 +1,4 @@
-Liquidh2o
+## **Liquidh2o**
 
 This project develops a predictive analytics and machine learning pipeline to monitor and control water distribution across client tanks.
 It uses time-series modeling to ensure that each tank’s predicted water level aligns with the measured level, allowing automatic control and early anomaly detection.
