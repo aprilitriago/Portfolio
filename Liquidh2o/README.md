@@ -12,6 +12,7 @@ The next phase migrates to LightGBM for improved scalability and interpretabilit
 Python (pandas, scikit-learn, LightGBM) · SQLAlchemy · PostgreSQL · YAML configs · Docker
 
 **Project Structure**
+
 pipeline/       → feature engineering, training, and prediction scripts  
 config/         → YAML configs for training & prediction  
 models/         → stored model artifacts  
