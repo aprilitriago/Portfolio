@@ -27,6 +27,7 @@
  - sMAPE	4.6 %
 
 **Interpretation:** The model explains 97 % of water-level variance with average errors under 5 units.
+
 **Next Steps**
 - Transition to LightGBM for faster, scalable retraining.
 - Automate SQL export and monitoring dashboards.
