@@ -19,7 +19,7 @@ Analysis of 157 TikTok videos from fast food brands (KFC, McDonald's, Burger Kin
 - `docs/` - Methodology and findings
 
 ## Quick Start
-See [EDA_kfc_mcdonald_bk.ipynb](notebooks/EDA_kfc_mcdonald_bk.ipynb)
+See [EDA_kfc_mcdonald_bk.ipynb](notebooks/analisis_kfc_mcd_bk.ipynb)
 
 ## Citation
 April Itriago Trujillo. (2026). TikTok Creative Performance Analysis. GitHub.
